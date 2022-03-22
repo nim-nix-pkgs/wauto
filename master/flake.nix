@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-wauto-master.flake = false;
+  inputs.src-wauto-master.ref   = "refs/heads/master";
   inputs.src-wauto-master.owner = "khchen";
-  inputs.src-wauto-master.ref   = "master";
   inputs.src-wauto-master.repo  = "wAuto";
   inputs.src-wauto-master.type  = "github";
   
